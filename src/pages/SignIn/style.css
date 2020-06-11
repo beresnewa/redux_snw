@@ -1,0 +1,80 @@
+.page-sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.sign-in-string{
+  font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+    margin-top: 5px;
+    border: 0;
+    outline: none;
+
+}
+
+.login-button {
+  font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-top: 15px;
+    border: 0;
+    outline: none;
+    
+}
+.login-button:hover{
+  background-color: lawngreen;
+  box-shadow: inset;
+  cursor: pointer;
+
+}
+
+
+.navbar .card-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+
+.navbar .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.navbar .card-content {
+  height: 50px;
+  font-size: 80%;
+  padding-left: 5px;
+
+}
